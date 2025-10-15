@@ -36,8 +36,8 @@ Navigate to your AutoHotkey installation folder. The structure should look like:
 ```
 <versionFolder>/
   └── AutoHotkey/
-      ├── Joystick to Keyboard Emulation.exe  (already configured)
-      ├── ConfigurationForm.exe
+      ├── config.ini
+      ├── Joystick to Keyboard Emulation.exe  (already configured by ConfigurationForm.exe)
       └── (other files)
 ```
 
@@ -52,10 +52,10 @@ Your folder should now look like:
 ```
 <versionFolder>/
   └── AutoHotkey/
+      ├── config.ini
       ├── Joystick to Keyboard Emulation.exe
       ├── joystick_diablo_watcher.bat          ← NEW
       ├── joystick_diablo_new_shortcut.bat     ← NEW
-      ├── ConfigurationForm.exe
       └── (other files)
 ```
 
